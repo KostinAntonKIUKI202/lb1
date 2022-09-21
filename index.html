@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        dt{
+            color: red;
+            font-size: 18pt;
+        }
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 12pt;
+        }
+        tr,th{
+            height: 1.5cm;
+            width: 1.5cm;
+            border: 2px solid rgb(27, 27, 27);
+        }
+        #space-tr{
+            height: 1cm;
+        }
+        #red-th{
+            background-color: rgb(255, 77, 77);
+        }
+        #yellow-th{
+            background-color:rgb(238, 238, 96);
+        }
+        .white-tr-th{
+            border: 0px;
+        }
+        .pink-th{
+            background-color:pink;
+        }
+        .purple-th{
+            background-color:rgb(255, 106, 255);
+        }
+        table{
+            border-collapse: collapse;
+        }
+        input{
+            position:-ms-page;
+        }
+    </style>
+</head>
+<body>
+    <p>Общее количество перестановок из <i>n</i> элементов равно <strong>произведению
+        всех целых чисел</strong> от <i>1</i> до <i>n</i>: P<sub>n</sub>=1 ● 2 ● 3 ● … (n - 2) ● (n – 1) ● n.</p>
+    <hr>
+    <dl>
+        <dt>ФВ</dt>
+        <dd>Фізичне виховання</dd>
+        <dt>СПЗ</dt>
+        <dd>Системне програмне забезпечення</dd>
+        <dt>ПЗВОП</dt>
+        <dd>Програмні засоби візуалізації обчислювальних процедур</dd>
+        <dt>АК</dt>
+        <dd>Архітектура комп'ютерів</dd>
+        <dt>МодС</dt>
+        <dd>Моделювання систем</dd>
+        <dt>ІТех</dt>
+        <dd>Інтернет технології</dd>
+        <dt>КСх</dt>
+        <dd>Комп'ютерна схемотехніка</dd>
+        <dt>*СПтК</dt>
+        <dd>*Соціальна психологія та конфліктологія</dd>
+    </dl>
+    <hr>
+    <table>
+        <caption>Tаблица менделеева</caption>
+        <tbody>
+            <tr>
+                <th id="red-th">87<br>Fr</th>
+                <th id="yellow-th">88<br>Ra</th>
+                <th class="purple-th"></th>
+                <th class="pink-th">104<br>Rf</th>
+                <th class="pink-th">105<br>Db</th>
+                <th class="pink-th">106<br>Sg</th>
+            </tr>
+            <tr class="white-tr-th" id="space-tr">
+            </tr>
+            <tr>
+                <th class="white-tr-th" colspan="3">Лантаноиды</th>
+                <th class="pink-th">57<br>La</th>
+                <th class="pink-th">58<br>Ce</th>
+                <th class="pink-th">59<br>Pr</th>
+            </tr>
+            <tr>
+                <th class="white-tr-th" colspan="3">Актиноиды</th>
+                <th class="purple-th">89<br>Ac</th>
+                <th class="purple-th">90<br>Th</th>
+                <th class="purple-th">91<br>Pa</th>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <form action="">
+        <label for="CPU">Процессор:</label>
+        <input type="text" id="cpu-name" name="CPU">
+        <br>
+        <label for="RAM">ОЗУ:</label>
+        <input type="text" id="ram-name" name="RAM">
+        <br>
+        <label for="GPU">Видеокарта:</label>
+        <input type="text" id="gpu-name" name="GPU">
+        <br>
+        <label for="mother-board"> Материнская плата:</label>
+        <input type="text" id="mb-name" name="mother-board">
+        <br>
+        <input type="submit" value="Отправить">
+    </form>
+    <hr>
+    <img src="АК.png" width="444" height="366" alt="img_1" usemap="#Navigator">
+    <map name="Navigator">
+        <area shape="rect" coords="168, 153, 346, 195" href="https://dl.nure.ua/mod/attendance/view.php?id=305930" alt="Attitude">
+        <area shape="circle" coords="223, 177, 356, 290" href="https://dl.nure.ua/?redirect=0" alt="Home DL">
+    </map>
+</body>
+</html>
